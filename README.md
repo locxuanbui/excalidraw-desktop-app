@@ -1,6 +1,6 @@
 # Excalidraw Desktop App
 
-A desktop wrapper for [Excalidraw](excalidraw.com): **Tauri 2 + Vite + React + `@excalidraw/excalidraw`** (MIT).
+A desktop wrapper for [Excalidraw](https://excalidraw.com): **Tauri 2 + Vite + React + `@excalidraw/excalidraw`** (MIT).
 
 ## Run it
 
