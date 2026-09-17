@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    App icon: "The Heaven Sword and Dragon Saber" (倚天屠龙记).
+    The broad curved Dragon Saber (gold) crossed under the straight
+    Heaven Sword (steel), ringed in gold on dark lacquer.
+  -->
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="78%">
+      <stop offset="0%" stop-color="#2b3654"/>
+      <stop offset="55%" stop-color="#141a2b"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a6b14"/>
+      <stop offset="45%" stop-color="#e6b94e"/>
+      <stop offset="100%" stop-color="#ffefa8"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7e93b5"/>
+      <stop offset="50%" stop-color="#f2f7ff"/>
+      <stop offset="100%" stop-color="#93a9c9"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1024" height="1024" rx="228"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+
+    <!-- gold ring -->
+    <circle cx="512" cy="470" r="330" fill="none" stroke="url(#gold)" stroke-width="26"/>
+    <circle cx="512" cy="470" r="284" fill="none" stroke="#e6b94e" stroke-width="4" opacity="0.55"/>
+
+    <!-- Dragon Saber blade (under): curved, gold -->
+    <path d="M 315 755 Q 560 480 730 215" fill="none" stroke="#6e4c0d" stroke-width="108" stroke-linecap="round"/>
+    <path d="M 315 755 Q 560 480 730 215" fill="none" stroke="url(#gold)" stroke-width="90" stroke-linecap="round"/>
+    <path d="M 315 755 Q 560 480 730 215" fill="none" stroke="#7c5a12" stroke-width="20" opacity="0.8"/>
+    <polygon points="768,239 692,191 773,148" fill="#e6b94e" stroke="#6e4c0d" stroke-width="8" stroke-linejoin="round"/>
+
+    <!-- Heaven Sword blade (over): straight, steel -->
+    <line x1="694" y1="740" x2="304" y2="250" stroke="#4c5f7d" stroke-width="78" stroke-linecap="round"/>
+    <line x1="694" y1="740" x2="304" y2="250" stroke="url(#steel)" stroke-width="62" stroke-linecap="round"/>
+    <line x1="694" y1="740" x2="304" y2="250" stroke="#5b6f8f" stroke-width="6"/>
+    <polygon points="329,230 279,270 260,195" fill="#dfe9f8" stroke="#4c5f7d" stroke-width="8" stroke-linejoin="round"/>
+
+    <!-- saber guard + grip (bottom-left) -->
+    <line x1="244" y1="692" x2="386" y2="818" stroke="#8a6410" stroke-width="36" stroke-linecap="round"/>
+    <line x1="315" y1="755" x2="235" y2="845" stroke="#3a2c18" stroke-width="42" stroke-linecap="round"/>
+    <line x1="296" y1="778" x2="268" y2="756" stroke="#c0392b" stroke-width="12"/>
+    <line x1="276" y1="803" x2="248" y2="781" stroke="#c0392b" stroke-width="12"/>
+    <circle cx="235" cy="845" r="27" fill="url(#gold)" stroke="#6e4c0d" stroke-width="6"/>
+
+    <!-- sword guard + grip + tassel (bottom-right) -->
+    <line x1="622" y1="810" x2="778" y2="686" stroke="#8a6410" stroke-width="36" stroke-linecap="round"/>
+    <line x1="700" y1="748" x2="775" y2="842" stroke="#3a2c18" stroke-width="42" stroke-linecap="round"/>
+    <line x1="720" y1="771" x2="748" y2="749" stroke="url(#gold)" stroke-width="12"/>
+    <line x1="740" y1="796" x2="768" y2="774" stroke="url(#gold)" stroke-width="12"/>
+    <circle cx="775" cy="842" r="27" fill="url(#gold)" stroke="#6e4c0d" stroke-width="6"/>
+    <path d="M 795 860 Q 850 900 838 962" fill="none" stroke="#c0392b" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="838" cy="968" r="16" fill="#c0392b"/>
+  </g>
+</svg>
